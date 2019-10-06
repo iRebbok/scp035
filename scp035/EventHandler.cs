@@ -41,7 +41,13 @@ namespace scp035
 		private bool corrodeLifeSteal;
 		private bool isEnabled;
 
-		public EventHandler(Plugin plugin)
+        // Translate
+        private uint bctime;
+        private string infection;
+        private string picked;
+        private string hiding;
+
+        public EventHandler(Plugin plugin)
 		{
 			instance = plugin;
 			hInstance = this;
