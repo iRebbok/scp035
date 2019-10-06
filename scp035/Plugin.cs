@@ -48,7 +48,7 @@ namespace scp035
             AddConfig(new Smod2.Config.ConfigSetting("035_bc_time", 10, true, "Broadcast time"));
             AddTranslation(new Smod2.Lang.LangSetting("035_infection", "You are <color=red>SCP-035!</color> You have infected a body and have gained control over it, use it to help the other SCPs!", "SCP035"));
             AddTranslation(new Smod2.Lang.LangSetting("035_picked", "You have picked up <color=red>SCP-035.</color> He has infected your body and is now in control of you.", "SCP035"));
-            AddTranslation(new Smod2.Lang.LangSetting("035_hiding", "You're not trying to exploit the system by hiding your tag as SCP-035 now, are you?", "SCP035)"));
+            AddTranslation(new Smod2.Lang.LangSetting("035_hiding", "You're not trying to exploit the system by hiding your tag as SCP-035 now, are you?", "SCP035"));
         }
     }
 }
